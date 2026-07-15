@@ -2,7 +2,7 @@
 
 ## Scope
 
-Aplicación web de una sola página para que un cliente de Aviva Crédito revise, ajuste o rechace una oferta de reestructura de crédito, con sincronización de estado en tiempo real contra HubSpot CRM (objeto Deal). El proyecto Firebase se llama `ajustes-oferta` (`.firebaserc`).
+Aplicación web de una sola página para que un cliente de Aviva Crédito revise, ajuste o rechace una oferta de reestructura de crédito, con sincronización de estado en tiempo real contra HubSpot CRM (objeto Deal).
 
 Arquitectura: frontend estático (Firebase Hosting) + backend serverless 
 (Firebase Cloud Functions) que actúa como proxy autenticado hacia la API de HubSpot. El frontend nunca llama a HubSpot directamente; el token de HubSpot vive solo en el backend.
